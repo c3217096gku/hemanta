@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Responsive Design with Button Actions</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <script src="scripts.js" defer></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Responsive Design with Button Actions</h1>
+
+    </header>
+
+    <div class="container">
+
+        <section id="section1">
+
+            <h2>Section 1</h2>
+
+            <p>This is the first section.</p>
+
+            <img src="section1.jpg" alt="Section 1 Image">
+
+            <button onclick="showAlert()">Click Me</button>
+
+        </section>
+
+        <section id="section2">
+
+            <h2>Section 2</h2>
+
+            <p>This is the second section.</p>
+
+            <img src="section2.jpg" alt="Section 2 Image">
+
+            <button onclick="showAlert()">Click Me</button>
+
+        </section>
+
+        <section id="section3">
+
+            <h2>Section 3</h2>
+
+            <p>This is the third section.</p>
+
+            <img src="section3.jpg" alt="Section 3 Image">
+
+            <button onclick="showAlert()">Click Me</button>
+
+        </section>
+
+        <section id="section4">
+
+            <h2>Section 4</h2>
+
+            <p>This is the fourth section.</p>
+
+            <img src="section4.jpg" alt="Section 4 Image">
+
+            <button onclick="showAlert()">Click Me</button>
+
+        </section>
+
+    </div>
+
+    <footer>
+
+        <p>&copy; 2024 Advanced Responsive Design Practice</p>
+
+    </footer>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Interactive Profile Card</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="profile-card">
+
+        <img src="profile.jpg" alt="Profile Image">
+
+        <h2>名前</h2>
+
+        <p>こちらは紹介文です。簡単な自己紹介をここに記載します。</p>
+
+        <div class="social-links">
+
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+
+        </div>
+
+        <button onclick="followAlert()">Follow</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
